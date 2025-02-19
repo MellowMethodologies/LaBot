@@ -3,7 +3,7 @@
 from pathlib import Path
 import frida
 
-# frida.spawn("/Applications/Dofus.app/Contents/Data/Dofus.app/Contents/MacOS/Dofus")
+frida.spawn("/home/fake/Downloads/Ankama Launcher-Setup-x86_64.appimage")
 
 SCRIPT = (Path(__file__).parent / "script.js").read_text()
 

@@ -16,12 +16,12 @@ from fritm import hook, start_proxy_server
 
 FILTER = "port == 5555 || port == 443"
 
-
 def launch_dofus():
     """to interrupt : dofus.terminate()"""
     platform = sys.platform
-    if platform == "darwin":
-        path = "/Applications/Dofus.app/Contents/Data/Dofus.app/Contents/MacOS/Dofus"
+    print("Launching Dofus on %s" % platform)
+    if platform == "linux":
+        path = "/home/fake/Downloads/Ankama Launcher-Setup-x86_64.appimage"
     elif platform == "win32":
         appdata = os.getenv("appdata")
         parent = os.path.dirname(appdata)
@@ -65,10 +65,10 @@ def make_parser():
 if __name__ == "__main__":
     parser = make_parser()
     args = parser.parse_args()
-
     logger.setLevel(args.verbose)
 
     assert not (args.attach and args.launch), "You cannot both launch and attach"
+
     if not args.server:
         assert args.dump_to is None, "dump-to not used"
     if not args.attach:
@@ -82,6 +82,7 @@ if __name__ == "__main__":
         def my_callback(coJeu, coSer):
             global bridges
             bridge = InjectorBridgeHandler(coJeu, coSer, dumper=dumper)
+            # print("New bridge created", bridge)
             bridges.append(bridge)
             bridge.loop()
 
@@ -94,17 +95,15 @@ if __name__ == "__main__":
 
     if args.attach:
         target = args.pid
+        print("Attaching to Dofus with PID %s" % target)
         if target is None:
-            if sys.platform == "darwin":
+            if sys.platform == "linux":
                 target = "dofus"
-            elif sys.platform == "win32":
-                target = "Dofus.exe"
-            else:
-                assert False, "Your platform requires a pid to attach"
 
     if args.launch or args.attach:
+        print("Hooking Dofus with PID %s" % target)
         hook(target, args.port, FILTER)
         pass
 
     if not sys.flags.interactive:
-        sys.stdin.read()  # infinite loop
+        sys.stdin.read()

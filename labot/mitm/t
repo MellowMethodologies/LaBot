@@ -1,0 +1,305 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.0  22100 14228 ?        Ss   13:07   0:59 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    13:07   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    13:07   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-slub_flushwq]
+root           7  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/0:0H-events_highpri]
+root          12  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        I    13:07   0:00 [rcu_tasks_kthread]
+root          15  0.0  0.0      0     0 ?        I    13:07   0:00 [rcu_tasks_rude_kthread]
+root          16  0.0  0.0      0     0 ?        I    13:07   0:00 [rcu_tasks_trace_kthread]
+root          17  0.0  0.0      0     0 ?        S    13:07   0:09 [ksoftirqd/0]
+root          18  0.0  0.0      0     0 ?        I    13:07   0:09 [rcu_preempt]
+root          19  0.0  0.0      0     0 ?        S    13:07   0:00 [rcub/0]
+root          20  0.0  0.0      0     0 ?        S    13:07   0:00 [rcu_exp_par_gp_kthread_worker/0]
+root          21  0.0  0.0      0     0 ?        S    13:07   0:01 [rcu_exp_gp_kthread_worker]
+root          22  0.0  0.0      0     0 ?        S    13:07   0:00 [migration/0]
+root          23  0.0  0.0      0     0 ?        S    13:07   0:00 [idle_inject/0]
+root          24  0.0  0.0      0     0 ?        S    13:07   0:00 [cpuhp/0]
+root          25  0.0  0.0      0     0 ?        S    13:07   0:00 [cpuhp/2]
+root          26  0.0  0.0      0     0 ?        S    13:07   0:00 [idle_inject/2]
+root          27  0.0  0.0      0     0 ?        S    13:07   0:00 [migration/2]
+root          28  0.0  0.0      0     0 ?        S    13:07   0:02 [ksoftirqd/2]
+root          30  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/2:0H-events_highpri]
+root          31  0.0  0.0      0     0 ?        S    13:07   0:00 [cpuhp/1]
+root          32  0.0  0.0      0     0 ?        S    13:07   0:00 [idle_inject/1]
+root          33  0.0  0.0      0     0 ?        S    13:07   0:00 [migration/1]
+root          34  0.0  0.0      0     0 ?        S    13:07   0:02 [ksoftirqd/1]
+root          36  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/1:0H-events_highpri]
+root          37  0.0  0.0      0     0 ?        S    13:07   0:00 [cpuhp/3]
+root          38  0.0  0.0      0     0 ?        S    13:07   0:00 [idle_inject/3]
+root          39  0.0  0.0      0     0 ?        S    13:07   0:00 [migration/3]
+root          40  0.0  0.0      0     0 ?        S    13:07   0:02 [ksoftirqd/3]
+root          42  0.0  0.0      0     0 ?        I<   13:07   0:02 [kworker/3:0H-kblockd]
+root          43  0.0  0.0      0     0 ?        S    13:07   0:00 [kdevtmpfs]
+root          44  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-inet_frag_wq]
+root          45  0.0  0.0      0     0 ?        S    13:07   0:00 [kauditd]
+root          46  0.0  0.0      0     0 ?        S    13:07   0:00 [khungtaskd]
+root          47  0.0  0.0      0     0 ?        S    13:07   0:00 [oom_reaper]
+root          49  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-writeback]
+root          50  0.1  0.0      0     0 ?        S    13:07   0:32 [kcompactd0]
+root          51  0.0  0.0      0     0 ?        SN   13:07   0:00 [ksmd]
+root          52  0.0  0.0      0     0 ?        SN   13:07   0:04 [khugepaged]
+root          53  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-kintegrityd]
+root          54  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-kblockd]
+root          55  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-blkcg_punt_bio]
+root          57  0.1  0.0      0     0 ?        S    13:07   0:57 [irq/9-acpi]
+root          60  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-tpm_dev_wq]
+root          61  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-ata_sff]
+root          62  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-edac-poller]
+root          63  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-devfreq_wq]
+root          64  0.0  0.0      0     0 ?        S    13:07   0:00 [watchdogd]
+root          65  0.0  0.0      0     0 ?        I<   13:07   0:02 [kworker/2:1H-events_highpri]
+root          66  0.0  0.0      0     0 ?        S    13:07   0:02 [kswapd0]
+root          67  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-kthrotld]
+root          68  0.0  0.0      0     0 ?        S    13:07   0:00 [irq/41-pciehp]
+root          69  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-acpi_thermal_pm]
+root          70  0.0  0.0      0     0 ?        S    13:07   0:00 [hwrng]
+root          71  0.0  0.0      0     0 ?        S    13:07   0:00 [scsi_eh_0]
+root          72  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-scsi_tmf_0]
+root          73  0.0  0.0      0     0 ?        S    13:07   0:00 [scsi_eh_1]
+root          74  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-scsi_tmf_1]
+root          76  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-mld]
+root          77  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-ipv6_addrconf]
+root          78  0.0  0.0      0     0 ?        I<   13:07   0:03 [kworker/0:1H-acpi_thermal_pm]
+root          85  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-kstrp]
+root         124  0.0  0.0      0     0 ?        I<   13:07   0:02 [kworker/1:1H-events_highpri]
+root         146  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/3:1H-acpi_thermal_pm]
+root         157  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-ttm]
+root         158  0.0  0.0      0     0 ?        S    13:07   0:00 [card1-crtc0]
+root         159  0.0  0.0      0     0 ?        S    13:07   0:00 [card1-crtc1]
+root         160  0.0  0.0      0     0 ?        S    13:07   0:00 [card1-crtc2]
+root         221  0.0  0.0      0     0 ?        S    13:07   0:04 [jbd2/sda1-8]
+root         222  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-ext4-rsv-conversion]
+root         264  0.0  0.0      0     0 ?        S    13:07   0:00 [psimon]
+root         298  0.0  1.0 222284 165844 ?       Ss   13:07   0:31 /usr/lib/systemd/systemd-journald
+root         299  0.0  0.0  35772 10620 ?        Ss   13:07   0:22 /usr/lib/systemd/systemd-udevd
+root         326  0.0  0.0      0     0 ?        S    13:07   0:00 [psimon]
+root         386  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-cfg80211]
+root         393  0.0  0.0      0     0 ?        I<   13:07   0:00 [kworker/R-cryptd]
+root         398  0.0  0.0      0     0 ?        S    13:07   0:20 [irq/53-iwlwifi]
+root         513  0.0  0.0  10032  5660 ?        Ss   13:07   0:00 /usr/lib/bluetooth/bluetoothd
+dbus         514  0.2  0.0  10500  7876 ?        Ss   13:07   1:24 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd      515  0.0  0.0 382296 10652 ?        Ssl  13:07   0:04 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+root         517  0.0  0.2 1991020 36036 ?       Ssl  13:07   0:18 /usr/lib/snapd/snapd
+root         518  0.0  0.0  15984  8612 ?        Ss   13:07   0:04 /usr/lib/systemd/systemd-logind
+root         542  0.1  0.1 562100 26432 ?        Ssl  13:07   0:58 /usr/bin/NetworkManager --no-daemon
+root         572  0.0  0.0 390344 12388 ?        Ssl  13:07   0:03 /usr/bin/ModemManager
+root         618  0.0  0.0  16656 11604 ?        Ss   13:07   0:02 /usr/bin/wpa_supplicant -u -s -O /run/wpa_supplicant
+fake         624  0.0  0.1 106484 26280 ?        Ssl  13:07   0:03 /usr/bin/python3 /opt/google/chrome-remote-desktop/chrome-remote-desktop --child-process --config=/home/fake/.config/chrome-remote-desktop/host#144c9defac04969c7bfad8efaa8ea194.json --start
+root         626  0.0  0.0  18864  7796 ?        Ss   13:07   0:00 /usr/bin/cupsd -l
+root         629  0.0  0.0   6760  5112 ?        Ss   13:07   0:00 /usr/sbin/crond -n
+fake         633  0.0  0.0  19380  3428 ?        S    13:07   0:00 (sd-pam)
+root         635  0.1  0.3 1944772 50608 ?       Ssl  13:07   0:48 /usr/bin/containerd
+root         640  0.0  0.1 154528 22976 ?        Ssl  13:07   0:00 /usr/bin/sddm
+root         648  3.1  0.5 814328 93616 tty2     Ssl+ 13:07  16:40 /usr/lib/Xorg -nolisten tcp -background none -seat seat0 vt2 -auth /run/sddm/xauth_pToaPL -noreset -displayfd 16
+fake         703  0.0  0.3 238568 60960 ?        S    13:07   0:09 Xvfb :20 -auth /home/fake/.Xauthority -nolisten tcp -noreset -screen 0 3840x2560x24
+fake         721  0.0  0.3 33890776 50608 ?      Sl   13:07   0:00 /opt/google/chrome-remote-desktop/chrome-remote-desktop-host --type=xsession_chooser
+root         789  0.2  0.5 2864416 88832 ?       Ssl  13:07   1:33 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1960  0.0  0.1  77960 20760 ?        S    13:07   0:00 /usr/lib/sddm/sddm-helper --socket /tmp/sddm-auth-5958248b-b412-4a64-b9f0-b08851e419e7 --id 1 --start /usr/bin/startplasma-x11 --user fake
+fake        1966  0.1  0.0  20668 12576 ?        Ss   13:07   0:42 /usr/lib/systemd/systemd --user
+fake        1968  0.0  0.0  22288  3868 ?        S    13:07   0:00 (sd-pam)
+fake        1982  0.0  0.4 794784 67372 ?        Sl   13:07   0:03 /usr/bin/kwalletd6 --pam-login 12 13
+fake        1983  0.0  0.2 219984 34684 ?        Sl   13:07   0:00 /usr/bin/startplasma-x11
+fake        2000  0.0  0.0   8824  6896 ?        Ss   13:07   0:12 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+fake        2029  0.0  0.3 742708 53268 ?        Ssl  13:07   0:06 /usr/lib/kglobalacceld
+fake        2035  0.1  1.4 268751792 226776 ?    SNsl 13:07   0:51 /usr/lib/kf6/baloo_file
+fake        2038  0.0  0.0 759360 14620 ?        Ssl  13:07   0:11 /usr/lib/xdg-desktop-portal
+fake        2047  0.0  0.0 753864  6668 ?        Ssl  13:07   0:01 /usr/lib/xdg-document-portal
+root        2048  0.0  0.0 467824 13680 ?        Ssl  13:07   0:10 /usr/lib/udisks2/udisksd
+fake        2052  0.0  0.0 305680  5724 ?        Ssl  13:07   0:00 /usr/lib/xdg-permission-store
+root        2063  0.0  0.0   2560  1776 ?        Ss   13:07   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+rtkit       2079  0.0  0.0  21668  3328 ?        SNsl 13:07   0:00 /usr/lib/rtkit-daemon
+root        2081  0.4  0.1 317184 16280 ?        Ssl  13:07   2:34 /usr/lib/upowerd
+fake        2125  0.0  0.4 789384 65352 ?        Ssl  13:07   0:07 /usr/bin/ksmserver
+fake        2128  0.1  0.6 2059064 104732 ?      Ssl  13:07   0:40 /usr/bin/kded6
+fake        2149  3.1  2.7 3491728 440436 ?      Ssl  13:07  16:27 /usr/bin/kwin_x11 --replace
+fake        2309  0.8  4.1 3728640 663184 ?      Ssl  13:07   4:27 /usr/bin/plasmashell --no-respawn
+fake        2325  0.0  0.0 229088  5624 ?        Ssl  13:07   0:00 /usr/lib/dconf-service
+fake        2372  2.5  0.3 4420084 49112 ?       S<sl 13:07  13:12 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+fake        2383  0.0  0.3 915720 57660 ?        Ssl  13:07   0:04 /usr/lib/kactivitymanagerd
+fake        2385  0.0  0.2 708708 40620 ?        Ssl  13:07   0:02 /usr/bin/gmenudbusmenuproxy
+fake        2386  0.0  0.4 789792 65168 ?        Ssl  13:07   0:05 /usr/bin/kaccess
+fake        2387  0.0  0.4 862280 65568 ?        Ssl  13:07   0:02 /usr/lib/polkit-kde-authentication-agent-1
+fake        2388  0.0  0.4 1279976 73272 ?       Ssl  13:07   0:10 /usr/lib/org_kde_powerdevil
+fake        2389  0.0  0.6 1162956 99040 ?       Ssl  13:07   0:07 /usr/lib/xdg-desktop-portal-kde
+fake        2390  0.0  0.2 708104 40252 ?        Ssl  13:07   0:02 /usr/bin/xembedsniproxy
+fake        2463  0.0  0.0  95440  7136 ?        S<sl 13:07   0:00 /usr/bin/pipewire
+fake        2464  0.0  0.0  90196  6260 ?        Ssl  13:07   0:00 /usr/bin/pipewire-media-session
+fake        2484  0.0  0.0 314236  7896 ?        Sl   13:07   0:00 /usr/lib/pulse/gsettings-helper
+root        2505  0.0  0.0 308608  7244 ?        Ssl  13:07   0:00 /usr/lib/power-profiles-daemon
+root        2509  0.0  0.0      0     0 ?        S<   13:07   0:00 [krfcommd]
+fake        2531  0.0  0.0   7952  4384 ?        S    13:07   0:00 /usr/bin/xsettingsd
+fake        2536  0.0  0.1 223544 27536 ?        Ssl  13:07   0:02 /usr/lib/kf6/kscreen_backend_launcher
+fake        2603  0.3  1.4 1212285560 225036 ?   Ssl  13:07   2:03 /opt/discord/Discord
+fake        2606  0.0  0.3 959324 63144 ?        Ssl  13:07   0:09 /usr/bin/msm_kde_notifier
+fake        2607  0.0  0.4 803296 75648 ?        Ssl  13:07   0:07 /usr/bin/kdeconnectd
+fake        2610  0.0  2.7 1678424 438128 ?      Ssl  13:07   0:23 /usr/bin/telegram-desktop --
+fake        2620  1.6  2.1 3272468 343676 ?      Ssl  13:07   8:51 /home/fake/.local/share/spotify-launcher/install/usr/share/spotify/spotify
+fake        2630  0.0  0.0 309680  6652 ?        Ssl  13:07   0:00 /usr/lib/geoclue-2.0/demos/agent
+fake        2635  0.0  0.4 799604 69724 ?        Ssl  13:07   0:03 /usr/bin/pamac-tray-plasma
+fake        2799  0.0  0.3 33825628 51076 ?      S    13:07   0:00 /opt/discord/Discord --type=zygote --no-zygote-sandbox
+fake        2803  0.0  0.3 33825616 50452 ?      S    13:07   0:00 /opt/discord/Discord --type=zygote
+fake        2880  0.0  0.0 33825644 12432 ?      S    13:07   0:00 /opt/discord/Discord --type=zygote
+fake        3254  0.0  0.0 33576712 3480 ?       Sl   13:07   0:00 /opt/discord/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/fake/.config/discord/Crashpad --url=https://f.a.k/e --annotation=_productName=discord --annotation=_version=0.0.85 --annotation=lsb-release=Manjaro Linux --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=32.2.7 --initial-client-fd=43 --shared-client-connection
+fake        3285  0.0  0.0 380548  8144 ?        Ssl  13:07   0:00 /usr/lib/at-spi-bus-launcher
+fake        3297  0.0  0.0   7584  5072 ?        S    13:07   0:02 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+fake        3301  0.0  0.0 233544  7640 ?        Sl   13:07   0:05 /usr/lib/at-spi2-registryd --use-gnome-session
+fake        3336  0.2  0.9 34263320 154500 ?     Sl   13:07   1:20 /opt/discord/Discord --type=gpu-process --crashpad-handler-pid=3254 --enable-crash-reporter=74460db1-d069-4e31-a918-0d6d7c52d277,no_channel --user-data-dir=/home/fake/.config/discord --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,8847117673572634257,5701814234100734636,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version
+fake        3358  0.1  0.5 33875940 83116 ?      Sl   13:07   0:31 /opt/discord/Discord --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=3254 --enable-crash-reporter=74460db1-d069-4e31-a918-0d6d7c52d277,no_channel --user-data-dir=/home/fake/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8847117673572634257,5701814234100734636,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version
+fake        3681  4.8  2.8 1218561284 456608 ?   Sl   13:07  25:38 /opt/discord/Discord --type=renderer --crashpad-handler-pid=3254 --enable-crash-reporter=74460db1-d069-4e31-a918-0d6d7c52d277,no_channel --user-data-dir=/home/fake/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --app-path=/opt/discord/resources/app.asar --no-sandbox --no-zygote --enable-blink-features=EnumerateDevices,AudioOutputDevices --autoplay-policy=no-user-gesture-required --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=34540168 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8847117673572634257,5701814234100734636,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --enable-node-leakage-in-renderers
+fake        3885  0.0  0.4 34154440 64756 ?      Sl   13:07   0:05 /opt/discord/Discord --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=3254 --enable-crash-reporter=74460db1-d069-4e31-a918-0d6d7c52d277,no_channel --user-data-dir=/home/fake/.config/discord --secure-schemes=disclip,sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=disclip,sentry-ipc --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8847117673572634257,5701814234100734636,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,MediaSessionService,SpareRendererForSitePerProcess,UseEcoQoSForBackgroundProcess,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version
+fake        9642  0.0  0.4 517592 70664 ?        S    13:20   0:00 /home/fake/.local/share/spotify-launcher/install/usr/share/spotify/spotify --type=zygote --no-zygote-sandbox --no-sandbox --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/fake/.cache/spotify --log-severity=disable --user-agent-product=Chrome/128.0.6613.138 Spotify/1.2.48.405
+fake        9643  0.0  0.5 517592 81072 ?        S    13:20   0:01 /home/fake/.local/share/spotify-launcher/install/usr/share/spotify/spotify --type=zygote --no-sandbox --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/fake/.cache/spotify --log-severity=disable --user-agent-product=Chrome/128.0.6613.138 Spotify/1.2.48.405
+fake        9664  0.2  1.6 1802660 264292 ?      Sl   13:20   1:28 /home/fake/.local/share/spotify-launcher/install/usr/share/spotify/spotify --type=gpu-process --no-sandbox --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/fake/.cache/spotify --log-severity=disable --user-agent-product=Chrome/128.0.6613.138 Spotify/1.2.48.405 --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,7851132051947205065,16133700733348730120,262144 --disable-features=BackForwardCache,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr --variations-seed-version
+fake        9673  0.0  0.7 964644 116124 ?       Sl   13:20   0:25 /home/fake/.local/share/spotify-launcher/install/usr/share/spotify/spotify --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/fake/.cache/spotify --log-severity=disable --user-agent-product=Chrome/128.0.6613.138 Spotify/1.2.48.405 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,7851132051947205065,16133700733348730120,262144 --disable-features=BackForwardCache,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr --variations-seed-version
+fake        9685  0.0  0.3 962080 58972 ?        Sl   13:20   0:00 /home/fake/.local/share/spotify-launcher/install/usr/share/spotify/spotify --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --no-sandbox --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/fake/.cache/spotify --log-severity=disable --user-agent-product=Chrome/128.0.6613.138 Spotify/1.2.48.405 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,7851132051947205065,16133700733348730120,262144 --disable-features=BackForwardCache,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr --variations-seed-version
+fake        9751  4.2  2.3 1215440252 378936 ?   Sl   13:20  21:46 /home/fake/.local/share/spotify-launcher/install/usr/share/spotify/spotify --type=renderer --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/fake/.cache/spotify --log-severity=disable --user-agent-product=Chrome/128.0.6613.138 Spotify/1.2.48.405 --no-sandbox --autoplay-policy=no-user-gesture-required --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=784149252 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,7851132051947205065,16133700733348730120,262144 --disable-features=BackForwardCache,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr --variations-seed-version
+fake        9818  0.0  0.5 1234984 92188 ?       Sl   13:20   0:01 /home/fake/.local/share/spotify-launcher/install/usr/share/spotify/spotify --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/fake/.cache/spotify --log-severity=disable --user-agent-product=Chrome/128.0.6613.138 Spotify/1.2.48.405 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,7851132051947205065,16133700733348730120,262144 --disable-features=BackForwardCache,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr --variations-seed-version
+fake        9828  0.0  0.6 34450212 100824 ?     Sl   13:20   0:01 /home/fake/.local/share/spotify-launcher/install/usr/share/spotify/spotify --type=utility --utility-sub-type=media.mojom.CdmServiceBroker --lang=en-US --service-sandbox-type=cdm --no-sandbox --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/fake/.cache/spotify --log-severity=disable --user-agent-product=Chrome/128.0.6613.138 Spotify/1.2.48.405 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,7851132051947205065,16133700733348730120,262144 --disable-features=BackForwardCache,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr --variations-seed-version
+fake       12723  1.7  3.6 34696492 584752 ?     Ssl  13:26   8:56 /usr/lib/brave-browser/brave
+fake       12729  0.0  0.0 33577172 3948 ?       Sl   13:26   0:00 /usr/lib/brave-browser/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/fake/.config/BraveSoftware/Brave-Browser/Crash Reports --metrics-dir=/home/fake/.config/BraveSoftware/Brave-Browser --url=https://cr.brave.com --annotation=lsb-release=Manjaro Linux --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=133.1.75.175 --initial-client-fd=5 --shared-client-connection
+fake       12731  0.0  0.0 33567936 3428 ?       Sl   13:26   0:00 /usr/lib/brave-browser/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/fake/.config/BraveSoftware/Brave-Browser/Crash Reports --url=https://cr.brave.com --annotation=lsb-release=Manjaro Linux --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=133.1.75.175 --initial-client-fd=4 --shared-client-connection
+fake       12737  0.0  0.4 33973036 70328 ?      S    13:26   0:00 /usr/lib/brave-browser/brave --type=zygote --no-zygote-sandbox --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --change-stack-guard-on-fork=enable
+fake       12738  0.0  0.4 33973028 71968 ?      S    13:26   0:00 /usr/lib/brave-browser/brave --type=zygote --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --change-stack-guard-on-fork=enable
+fake       12740  0.0  0.1 33973052 22096 ?      S    13:26   0:00 /usr/lib/brave-browser/brave --type=zygote --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --change-stack-guard-on-fork=enable
+fake       12769  6.4  1.9 34445388 309144 ?     Sl   13:26  32:35 /usr/lib/brave-browser/brave --type=gpu-process --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake       12774  0.6  0.8 33972692 137004 ?     Sl   13:26   3:22 /usr/lib/brave-browser/brave --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake       12798  0.0  0.4 34033200 66356 ?      Sl   13:26   0:09 /usr/lib/brave-browser/brave --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake       13065  0.0  0.7 1459600496 115124 ?   Sl   13:26   0:00 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --extension-process --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=8 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=1177374772 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake       13077  0.0  0.7 1461309480 118668 ?   Sl   13:26   0:24 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --extension-process --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=1177646962 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake       13088  0.0  1.2 801972 196640 ?       Sl   13:26   0:08 /usr/bin/plasma-browser-integration-host chrome-extension://cimiefiiaegbelhefglklhhakcgmhkai/
+fake       13200  0.0  0.8 1459597612 142096 ?   Sl   13:26   0:02 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=16 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=1184049627 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake       13212  0.1  0.5 34239348 93368 ?      Sl   13:26   0:58 /usr/lib/brave-browser/brave --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake       13226  0.0  1.1 1459640656 181856 ?   Sl   13:26   0:04 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=19 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=1185433158 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake       13714  0.0  0.8 1459598360 132188 ?   Sl   13:28   0:01 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=24 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=1251833434 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake       13743  0.0  1.3 1459635772 218448 ?   Sl   13:28   0:08 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=25 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=1254578200 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake       15056  1.3  1.5 1459643412 245880 ?   Sl   13:30   6:49 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=26 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=1407173929 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake       15072  0.0  1.0 1459601012 167304 ?   Sl   13:30   0:01 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=33 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=1409007890 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake       15082  0.0  1.2 1461346860 197252 ?   Sl   13:30   0:03 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=32 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=1411193778 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake       15094  0.0  1.2 1461335368 200244 ?   Sl   13:30   0:04 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=29 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=1412003798 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake      110580  0.0  1.1 1459602356 177872 ?   Sl   17:02   0:06 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=84 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=14130374851 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake      139751  0.0  1.2 1459616408 198860 ?   Sl   17:56   0:03 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=100 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=17338546702 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake      178224  0.8  1.3 1187383328 209464 ?   Ssl  18:50   1:34 /opt/visual-studio-code/code
+fake      178227  0.0  0.3 33821136 60604 ?      S    18:50   0:00 /opt/visual-studio-code/code --type=zygote --no-zygote-sandbox
+fake      178228  0.0  0.3 33821128 60584 ?      S    18:50   0:00 /opt/visual-studio-code/code --type=zygote
+fake      178230  0.0  0.0 33821152 12020 ?      S    18:50   0:00 /opt/visual-studio-code/code --type=zygote
+fake      178244  0.0  0.0 33575764 3728 ?       Sl   18:50   0:00 /opt/visual-studio-code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/fake/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=b801b119-1007-4976-b305-c0584f75c70f&iid=b801b119-1007-4976-b305-c0584f75c70f&sid=b801b119-1007-4976-b305-c0584f75c70f --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.92.2 --annotation=lsb-release=Manjaro Linux --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=30.1.2 --initial-client-fd=46 --shared-client-connection
+fake      178262  1.8  1.4 34225900 227152 ?     Sl   18:50   3:22 /opt/visual-studio-code/code --type=gpu-process --crashpad-handler-pid=178244 --enable-crash-reporter=781b517d-0b58-4bde-ad61-64cbba60a995,no_channel --user-data-dir=/home/fake/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,11393108285771674725,13603847471479811157,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+fake      178272  0.0  0.5 33871444 83408 ?      Sl   18:50   0:03 /opt/visual-studio-code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=178244 --enable-crash-reporter=781b517d-0b58-4bde-ad61-64cbba60a995,no_channel --user-data-dir=/home/fake/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11393108285771674725,13603847471479811157,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+fake      178305  5.7  2.0 1186977348 333440 ?   Rl   18:50  10:32 /opt/visual-studio-code/code --type=renderer --crashpad-handler-pid=178244 --enable-crash-reporter=781b517d-0b58-4bde-ad61-64cbba60a995,no_channel --user-data-dir=/home/fake/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/opt/visual-studio-code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration, --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1739362042069879 --launch-time-ticks=20583325820 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11393108285771674725,13603847471479811157,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:c58f3ea9-e28c-4bde-a109-27186d24b318
+fake      178343  1.8  3.0 1193434292 494364 ?   Rl   18:50   3:23 /opt/visual-studio-code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=178244 --enable-crash-reporter=781b517d-0b58-4bde-ad61-64cbba60a995,no_channel --user-data-dir=/home/fake/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11393108285771674725,13603847471479811157,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+fake      178353  0.2  0.8 1186920284 138788 ?   Sl   18:50   0:23 /opt/visual-studio-code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=178244 --enable-crash-reporter=781b517d-0b58-4bde-ad61-64cbba60a995,no_channel --user-data-dir=/home/fake/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11393108285771674725,13603847471479811157,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+fake      178354  0.1  0.7 1186937164 115648 ?   Sl   18:50   0:13 /opt/visual-studio-code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=178244 --enable-crash-reporter=781b517d-0b58-4bde-ad61-64cbba60a995,no_channel --user-data-dir=/home/fake/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11393108285771674725,13603847471479811157,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+fake      178393  0.4  0.7 1186953620 121532 ?   Sl   18:50   0:54 /opt/visual-studio-code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=178244 --enable-crash-reporter=781b517d-0b58-4bde-ad61-64cbba60a995,no_channel --user-data-dir=/home/fake/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11393108285771674725,13603847471479811157,262144 --enable-features=kWebSQLAccess --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+fake      178566  0.0  0.0   4752  3740 ?        S    18:50   0:02 /home/fake/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python-env-tools/bin/pet server
+fake      178693  0.0  0.0  10172  7988 pts/1    Ss+  18:50   0:00 /usr/bin/zsh -i
+fake      178695  0.0  0.0  12972 11212 pts/2    Ss+  18:50   0:03 /usr/bin/zsh -i
+fake      178717  0.0  0.0  11060  9324 pts/3    Ss   18:50   0:01 /usr/bin/zsh -i
+fake      179030  2.1  3.1 1191224476 503624 ?   Sl   18:50   3:54 /opt/visual-studio-code/code /home/fake/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist/server.bundle.js --cancellationReceive=file:259c21ce433076dd3875d00ce784922187381bfe26 --node-ipc --clientProcessId=178343
+fake      179047  0.0  0.0  10172  8308 pts/4    Ss+  18:50   0:00 /usr/bin/zsh -i
+root      182426  0.0  0.0      0     0 ?        I<   18:56   0:00 [kworker/R-tls-strp]
+root      186407  0.0  0.0      0     0 ?        I<   19:02   0:03 [kworker/u17:2-i915_flip]
+root      212473  0.0  0.0      0     0 ?        I    20:00   0:00 [kworker/u16:6-events_unbound]
+fake      212969  0.0  1.1 1459601524 186068 ?   Sl   20:01   0:01 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=27 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=24848530499 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake      212983  0.0  1.1 1459612016 189776 ?   Sl   20:01   0:02 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=30 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=24850054952 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+fake      213016  7.1  1.5 1459630904 248360 ?   Sl   20:01   7:56 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=31 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=24856742213 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+root      226365  0.0  0.0      0     0 ?        I    20:28   0:00 [kworker/u16:9-async]
+fake      228635  0.0  0.5 1186853056 91304 ?    Sl   20:32   0:01 /opt/visual-studio-code/code /opt/visual-studio-code/resources/app/extensions/markdown-language-features/dist/serverWorkerMain --node-ipc --clientProcessId=178343
+root      234704  0.0  0.0      0     0 ?        I<   20:44   0:00 [kworker/u17:1-hci0]
+root      236013  0.0  0.0      0     0 ?        I    20:46   0:00 [kworker/u16:1-async]
+root      239537  0.0  0.0      0     0 ?        I    20:51   0:00 [kworker/u16:8-async]
+root      240553  0.0  0.0      0     0 ?        I    20:52   0:00 [kworker/u16:10-async]
+fake      242706  0.3  1.3 1459610864 220464 ?   Sl   20:57   0:10 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=130 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=28216302838 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+root      245299  0.0  0.0      0     0 ?        I    21:03   0:00 [kworker/u16:4-async]
+root      248793  0.1  0.0      0     0 ?        I    21:10   0:04 [kworker/0:2-i915-unordered]
+fake      254481  0.0  0.5 1459580956 82868 ?    Sl   21:21   0:00 /usr/lib/brave-browser/brave --type=renderer --string-annotations --crashpad-handler-pid=12729 --enable-crash-reporter=a958bd3a-11b5-4ca4-a441-68ae089d0a1c, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=137 --time-ticks-at-unix-epoch=-1739362033069879 --launch-time-ticks=29655511811 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,493314757594162415,12161436300357372514,262144 --variations-seed-version=main@f033433d17164c7f0a83ba6130098be0f3f37650
+root      255551  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/1:2-events]
+root      255720  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/3:1-pm]
+root      255881  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/2:1-events]
+root      257311  0.0  0.0      0     0 ?        I    21:28   0:00 [kworker/u16:0-async]
+root      258100  0.0  0.0      0     0 ?        I    21:30   0:00 [kworker/3:2-pm]
+root      258281  0.0  0.0      0     0 ?        I    21:30   0:01 [kworker/0:0-i915-unordered]
+root      258395  0.1  0.0      0     0 ?        I    21:30   0:02 [kworker/0:4-events]
+root      259248  0.0  0.0      0     0 ?        I    21:32   0:00 [kworker/2:2-mm_percpu_wq]
+root      260660  0.0  0.0      0     0 ?        I    21:34   0:00 [kworker/1:0-events]
+root      261209  0.0  0.0      0     0 ?        I    21:35   0:00 [kworker/3:0-mm_percpu_wq]
+root      262037  0.0  0.0      0     0 ?        I    21:36   0:00 [kworker/u16:2-async]
+root      262308  0.0  0.0      0     0 ?        I    21:37   0:00 [kworker/3:3-events]
+root      263654  0.0  0.0      0     0 ?        I    21:40   0:00 [kworker/1:1-cgwb_release]
+root      264661  0.0  0.0      0     0 ?        I<   21:40   0:00 [kworker/u17:0-rb_allocator]
+root      265075  0.0  0.0      0     0 ?        I    21:41   0:00 [kworker/2:0-mm_percpu_wq]
+root      265334  0.0  0.0      0     0 ?        I    21:41   0:00 [kworker/u16:3-async]
+root      265335  0.0  0.0      0     0 ?        I    21:41   0:00 [kworker/u16:5-flush-8:0]
+root      265336  0.0  0.0      0     0 ?        I    21:41   0:00 [kworker/u16:7-async]
+root      265337  0.0  0.0      0     0 ?        I    21:41   0:00 [kworker/u16:11-events_power_efficient]
+root      265338  0.0  0.0      0     0 ?        I    21:41   0:00 [kworker/u16:12-async]
+root      265339  0.0  0.0      0     0 ?        I    21:41   0:00 [kworker/u16:13-async]
+root      265340  0.0  0.0      0     0 ?        I    21:41   0:00 [kworker/u16:14-async]
+root      265341  0.0  0.0      0     0 ?        I    21:41   0:00 [kworker/u16:15-async]
+root      265342  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:16-async]
+root      265343  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:17-async]
+root      265344  0.0  0.0      0     0 ?        S    21:47   0:00 [irq/51-mei_me]
+root      265345  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:18-async]
+root      265346  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:19-async]
+root      265347  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:20-async]
+root      265348  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:21-async]
+root      265349  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:22-async]
+root      265350  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:23-async]
+root      265351  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:24-async]
+root      265352  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:25-async]
+root      265353  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:26-async]
+root      265354  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:27-events_unbound]
+root      265355  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:28-async]
+root      265356  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:29-async]
+root      265357  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:30-async]
+root      265358  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:31-i915]
+root      265359  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:32-events_power_efficient]
+root      265360  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:33-async]
+root      265361  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:34-async]
+root      265362  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:35-async]
+root      265363  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:36-async]
+root      265364  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:37-async]
+root      265365  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:38-async]
+root      265366  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:39-async]
+root      265367  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:40-async]
+root      265368  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:41-async]
+root      265369  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:42-async]
+root      265370  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:43-async]
+root      265371  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:44-async]
+root      265372  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:45-async]
+root      265373  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:46-async]
+root      265374  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:47-events_unbound]
+root      265375  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:48-async]
+root      265376  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:49-async]
+root      265377  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:50-events_unbound]
+root      265378  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:51-flush-8:0]
+root      265379  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:52-flush-8:0]
+root      265380  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:53-flush-8:0]
+root      265381  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:54-events_unbound]
+root      265382  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:55-events_unbound]
+root      265383  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:56-events_unbound]
+root      265384  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:57-i915-dp]
+root      265385  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:58]
+root      265386  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/u16:59]
+root      265387  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/3:4-events]
+root      265388  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/3:5-events]
+root      265389  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/3:6-events]
+root      265413  0.0  0.0      0     0 ?        I<   21:47   0:00 [kworker/0:2H]
+root      265420  0.0  0.0      0     0 ?        I<   21:47   0:00 [kworker/u17:3-hci0]
+root      265772  1.1  0.0      0     0 ?        S    21:47   0:02 [irq/56-rmi4_smbus]
+fake      266399  2.1  1.0 21472044 173796 ?     Ssl  21:49   0:03 /tmp/.mount_AnkamazhD8qb/zaap --enable-crashpad
+fake      266402  1.4  0.0  11852  2272 ?        Ssl  21:49   0:02 /home/fake/Downloads/Ankama Launcher-Setup-x86_64.appimage
+fake      266409  0.0  0.3 17026180 52488 ?      S    21:49   0:00 /tmp/.mount_AnkamazhD8qb/zaap --type=zygote --no-zygote-sandbox --enable-crashpad --enable-crashpad
+fake      266410  0.0  0.3 17026180 51824 ?      S    21:49   0:00 /tmp/.mount_AnkamazhD8qb/zaap --type=zygote --enable-crashpad --enable-crashpad
+fake      266414  0.0  0.0 17026180 10376 ?      S    21:49   0:00 /tmp/.mount_AnkamazhD8qb/zaap --type=zygote --enable-crashpad --enable-crashpad
+fake      266450  2.1  1.4 17520336 224664 ?     Sl   21:49   0:03 /tmp/.mount_AnkamazhD8qb/zaap --type=gpu-process --field-trial-handle=10478665311040599874,10905725825043577485,131072 --disable-features=PlzServiceWorker,SpareRendererForSitePerProcess --enable-gpu-rasterization --enable-crashpad --enable-crash-reporter=a945f04e-385c-49a4-9ec2-dc67d5fb1ff5,no_channel --user-data-dir=/home/fake/.config/Ankama Launcher --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAQAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+fake      266454  0.1  0.4 17100860 70276 ?      Sl   21:49   0:00 /tmp/.mount_AnkamazhD8qb/zaap --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=10478665311040599874,10905725825043577485,131072 --disable-features=PlzServiceWorker,SpareRendererForSitePerProcess --lang=en-US --service-sandbox-type=none --enable-crashpad --enable-crash-reporter=a945f04e-385c-49a4-9ec2-dc67d5fb1ff5,no_channel --user-data-dir=/home/fake/.config/Ankama Launcher --standard-schemes --secure-schemes --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=sentry-ipc --service-worker-schemes --streaming-schemes --shared-files=v8_context_snapshot_data:100 --enable-crashpad
+fake      266961  0.2  0.7 25513916 124408 ?     Sl   21:49   0:00 /tmp/.mount_AnkamazhD8qb/zaap --type=renderer --enable-crashpad --enable-crash-reporter=a945f04e-385c-49a4-9ec2-dc67d5fb1ff5,no_channel --user-data-dir=/home/fake/.config/zaap --standard-schemes --secure-schemes --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=sentry-ipc --service-worker-schemes --streaming-schemes --app-path=/tmp/.mount_AnkamazhD8qb/resources/app.asar --no-sandbox --no-zygote --field-trial-handle=10478665311040599874,10905725825043577485,131072 --disable-features=PlzServiceWorker,SpareRendererForSitePerProcess --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --shared-files=v8_context_snapshot_data:100 --enable-crashpad
+root      267978  0.0  0.0      0     0 ?        I    21:49   0:00 [kworker/2:3]
+root      268454  0.0  0.0      0     0 ?        I    21:50   0:00 [kworker/0:1-events]
+fake      269146  1.9  0.3 33778532 54764 ?      Sl   21:52   0:00 /opt/google/chrome-remote-desktop/chrome-remote-desktop-host --host-config=- --audio-pipe-name=/tmp/pyxdg-runtime-dir-fallback-fake/crd_audio#6CH0dBY5Ql/fifo_output --ssh-auth-sockname=/tmp/chromoting.fake.ssh_auth_sock --signal-parent
+fake      269169  0.0  0.0   9836  5956 pts/3    R+   21:52   0:00 ps aux

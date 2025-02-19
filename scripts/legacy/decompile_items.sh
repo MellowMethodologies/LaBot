@@ -6,10 +6,10 @@ if ! command -v python3 &>/dev/null; then
 fi
 
 
-export i18n="/Applications/Dofus.app/Contents/Data/Dofus.app/Contents/Resources/data/i18n/"
-export common="/Applications/Dofus.app/Contents/Data/Dofus.app/Contents/Resources/data/common/"
-export elements="/Applications/Dofus.app/Contents/Data/Dofus.app/Contents/Resources/content/maps/elements.ele"
-export maps="/Applications/Dofus.app/Contents/Data/Dofus.app/Contents/Resources/content/maps/"
+export i18n="/home/fake/.config/Ankama/Dofus/data/i18n/"
+export common="/home/fake/.config/Ankama/Dofus/data/common/"
+export elements="/home/fake/.config/Ankama/Dofus/content/maps/elements.ele"
+export maps="/home/fake/.config/Ankama/Dofus/content/maps/"
 
 
 if [ ! -d "./sources/data" ]; then

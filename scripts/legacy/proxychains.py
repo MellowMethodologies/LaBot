@@ -13,8 +13,8 @@ from subprocess import PIPE, Popen
 
 
 DOFUS_PATH = {
-    "darwin": "/Applications/Dofus.app/Contents/Data/Dofus.app/Contents/MacOS/Dofus",
-    "linux": None,
+    "darwin": "/home/fake/.config/Ankama/Dofus-dofus3/Dofus.x64",
+    "linux": "/home/fake/.config/Ankama/Dofus-dofus3/Dofus.x64",
     "win32": None,
     "cygwin": None,
 }
